@@ -7,7 +7,7 @@
     "repository": "https://github.com/alielsayed76/RUS",
     "success_url": "https://t.me/source_rus",
     "env": {
-        "SUDOID ": {
+        "SUDOID": {
             "description": "قم بوضع ايدي المطور هنا",
             "required": true
         },
