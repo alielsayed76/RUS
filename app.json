@@ -1,0 +1,42 @@
+{
+    "name": "Source RUS",
+    "description": "Telegram bot for safety",
+    "logo": "https://telegra.ph/file/4078b143baeeee87d45a0.jpg",
+    
+    "website": "https://t.me/source_rus",
+    "repository": "https://github.com/alielsayed76/RUS",
+    "success_url": "https://t.me/source_rus",
+    "env": {
+        "SUDOID ": {
+            "description": "قم بوضع ايدي المطور هنا",
+            "required": true
+        },
+        "SUDOUSERNAME": {
+            "description": "قم بوضع يوزر المطور هنا",
+            "required": true
+        },
+        "token": {
+            "description": "قم بوضع توكن البوت الخاص بك هنا",
+            "required": true
+        },
+        
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
