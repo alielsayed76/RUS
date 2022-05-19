@@ -21,7 +21,7 @@ sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua RUS.lua
 sudo chmod +x RUS
-sudo chmod +x ./DRG
+sudo chmod +x ./RUS
 ./DRG
 }
 if [ "$1" = "install" ]; then
