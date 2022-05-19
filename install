@@ -34,6 +34,6 @@ fi
 sudo chmod +x tg
 lua RUS.lua
 sudo chmod +x RUS
-sudo chmod +x ./DRG
-./DRG
+sudo chmod +x ./RUS
+./RUS
 fi
