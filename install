@@ -22,7 +22,7 @@ sudo chmod +x tg
 lua RUS.lua
 sudo chmod +x RUS
 sudo chmod +x ./RUS
-./DRG
+./RUS
 }
 if [ "$1" = "install" ]; then
 install
